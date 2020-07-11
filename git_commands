@@ -1,0 +1,42 @@
+### Version
+
+git -version
+
+
+### initialization
+
+git init
+
+
+### Config
+
+git config --global user.name 'name'
+
+git config -global user.email 'email address'
+
+
+### tracking or staging for commit
+
+git add (file_name)
+
+git add *.(extension) -- for similar extension files
+
+git add . -- for all files
+
+
+### Un tracking
+
+git rm --cached (file_name)
+
+
+# Status
+
+git status
+
+
+### Commit
+
+git commit -m 'commit tag'
+
+
+
